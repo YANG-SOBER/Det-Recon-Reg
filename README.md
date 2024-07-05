@@ -10,10 +10,8 @@ Image Resolution | Year | Structure Type | Number of Images | Defect Type | Anno
 The sample images from the CUBIT-Det dataset have been shown below. The first row is crack on building surfaces and the second row includes crack on pavements (first and second column) and bridges (third and forth column). The third row is spalling and the forth is moisture.
 
 <p align="center">
-<img src="https://github.com/CUHK-USR-Group/Defect-Dataset/blob/main/Sample_Images/CUBIT-Det_Sample_Images.png" width=60% height=60%>
+<img src="https://github.com/YANG-SOBER/Det-Recon-Reg/blob/main/Sample_Images/CUBIT-Det_Sample_Images.png" width=60% height=60%>
 </p>
-
-
 
 ## [Our Self-Collected Defect Segmentation Dataset: CUBIT-Seg](https://drive.google.com/drive/folders/1ea4YqIa9mfldCLWFquAKJXnCB3QzbgId?usp=sharing)
 
@@ -27,17 +25,15 @@ Image Resolution | Year | Structure Type | Number of Images | Defect Type | Anno
 The sample images from the CUBIT-Seg dataset have been shown below:
 
 <p align="center">
-<img src="https://github.com/CUHK-USR-Group/Defect-Dataset/blob/main/Sample_Images/CUBIT-Seg_Sample_Images.png" width=100% height=100%>
+<img src="https://github.com/YANG-SOBER/Det-Recon-Reg/blob/main/Sample_Images/CUBIT-Seg_Sample_Images.png" width=100% height=100%>
 </p>
-
-
 
 ## Visual Defect Datasets from Existing Works
 
 
 To further boost research in deep learning-based defect inspection, we review and summarize **40 publicly available defect datasets**, covering common defects in various types of infrastructure. **The taxonomy of the datasets** is proposed based on **specific deep learning objectives** (classification, segmentation, and detection). Clarifications are also made for each dataset regarding its corresponding **data volume, data resolution, data source, defect categories covered, infrastructure types focused, material types targeted, algorithms adopted for validation, annotation levels, and context levels**.
 
-<img src="https://github.com/CUHK-USR-Group/Defect-Dataset/blob/main/Sample_Images/Taxonomy.PNG">
+<img src="https://github.com/YANG-SOBER/Det-Recon-Reg/blob/main/Sample_Images/Taxonomy.PNG">
 
 As demonstrated in the above figure, the summarized defect datasets cover various types of infrastructure such as pavements, bridges, buildings, tunnels, and dams with different materials such as **concrete, asphalt, steel, masonry, and wood**. These datasets cover the most common defect types: **crack, spalling, delamination, corrosion, and efflorescence**. As to data types, most datasets utilize optical images, with **IRT images, IE signals, and GPR signals as alternatives**. Optical images are typically used to detect surface defects of the structure, while IRT images, IE signals, and GPR signals can reveal subsurface defects. Besides, these datasets vary in the level of image context information, i.e., the pixel level, object level, and scene level. The data contained in different datasets are collected via hand-held sensors, robotic platforms, or UAV platforms. Especially, it is promising to utilize the UAV platform with onboard sensors to conduct defect inspection and data collection in GPS-denied environment. For more detailed description of the datasets, please refer to our [review](http://www.mae.cuhk.edu.hk/~bmchen/papers/2022_CBM.pdf).
 
@@ -67,7 +63,7 @@ Dataset | Year | Structure Type | Number of Images |
 
 Sample images of above classification-oriented datasets are as follows:
 <p align="center">
-  <img src="https://github.com/CUHK-USR-Group/Defect-Dataset/blob/main/Sample_Images/Classification_Sample_Images.png" width=100% height=100%>
+  <img src="https://github.com/YANG-SOBER/Det-Recon-Reg/blob/main/Sample_Images/Classification_Sample_Images.png" width=100% height=100%>
 </p>
 
 ### Segmentation-Oriented Defect Dataset
@@ -101,7 +97,7 @@ Dataset | Year | Structure Type | Number of Images |
 Sample images of above segmentation-oriented datasets are as follows:
 
 <p align="center">
-<img src="https://github.com/CUHK-USR-Group/Defect-Dataset/blob/main/Sample_Images/Segmentation_Sample_Images.png" width=100% height=100%>
+<img src="https://github.com/YANG-SOBER/Det-Recon-Reg/blob/main/Sample_Images/Segmentation_Sample_Images.png" width=100% height=100%>
 </p>
 
 ### Detection-Oriented Defect Dataset
@@ -120,5 +116,5 @@ Here, the RDD-2018 and RDD-2019 are omitted.
 Sample images of above detection-oriented datasets are as follows:
 
 <p align="center">
-<img src="https://github.com/CUHK-USR-Group/Defect-Dataset/blob/main/Sample_Images/Detection_Sample_Images.png" width=45% height=45%>
+<img src="https://github.com/YANG-SOBER/Det-Recon-Reg/blob/main/Sample_Images/Detection_Sample_Images.png" width=45% height=45%>
 </p>
